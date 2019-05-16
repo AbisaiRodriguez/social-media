@@ -319,7 +319,13 @@ header .search-area ul li {
     display: inline-block;
     margin: 0 15px 0 0;
     font-size: 18px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
  }
+
+ #content-area .main-area .post .body .top-icons .fas:hover{
+     color: #57AFF5;
+}
   
  #content-area .main-area .post .body .top-icons .comment{
      float: right;
@@ -334,4 +340,36 @@ header .search-area ul li {
     font-size: 16px;
     font-weight: 300;
     margin-left: 5px;
+}
+
+#content-area .main-area .post .body .post-comments{
+    background: #F4F4F4;
+}
+
+#content-area .main-area .post .body .post-comments .post-img {
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+#content-area .main-area .post .body .post-comments .post-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#content-area .main-area .post .body .post-comments .post-info{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+    width: 91%;
+}
+
+#content-area .main-area .post .body .post-comments .post-info .post-details{
+    display: inline-block;
+    width: 100%;
+}
+
+#content-area .main-area .post .body .post-comments .post-info .post-details .post-time{
+    float: right;
 }
