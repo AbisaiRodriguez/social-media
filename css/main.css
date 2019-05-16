@@ -208,6 +208,7 @@ header .search-area ul li {
 
  #content-area .widget-box .body {
      padding: 20px 0;
+     padding-bottom: 0;
  }
 
  #content-area .widget-box .body p{
@@ -317,7 +318,7 @@ header .search-area ul li {
  #content-area .main-area .post .body .top-icons .fas{
     color: #BFBFBF;
     display: inline-block;
-    margin: 0 15px 0 0;
+    margin: 0 20px 0 0;
     font-size: 18px;
     cursor: pointer;
     transition: all ease-in-out 0.2s;
@@ -354,6 +355,8 @@ header .search-area ul li {
 #content-area .main-area .post .body .post-comments .post-img img{
     width: 40px;
     height: 40px;
+    object-fit: cover;
+    object-position: center;
     border-radius: 50%;
 }
 
@@ -372,4 +375,56 @@ header .search-area ul li {
 
 #content-area .main-area .post .body .post-comments .post-info .post-details .post-time{
     float: right;
+}
+
+#content-area .main-area .post .body .post-form{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#content-area .main-area .post .body .post-form .form-img{
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+#content-area .main-area .post .body .post-form .form-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#content-area .main-area .post .body .post-form .form-comments{
+    display: inline-block;
+    width: 91%;
+    border-bottom: 2px solid #BFBFBF;
+    vertical-align: top;
+}
+
+#content-area .main-area .post .body .post-form .form-comments input{
+   font-size: 14px;
+   vertical-align: top;
+   width: 75%;
+   height: 30px;
+   text-decoration: none;
+   border: none;
+   outline: none;
+}
+
+#content-area .main-area .post .body .post-form .form-comments .icons{
+    display: inline-block;
+    float: right;
+    color: #BFBFBF;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+#content-area .main-area .post .body .post-form .form-comments .icons .fas{
+  margin: 0 0 0 20px;
+  transition: all ease-in-out .2s;
+}
+
+#content-area .main-area .post .body .post-form .form-comments .icons .fas:hover{
+ color: #57AFF5;
+ cursor: pointer;
 }
